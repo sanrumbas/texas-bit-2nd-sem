@@ -14,7 +14,6 @@ class DemoClass implements Interface_One, Interface_Two {
     public void print() {
         System.out.println("DemoClass::Interface_One_Print()");
     }
-
     // Override Interface_Two show()
     public void show() {
         System.out.println("DemoClass::Interface_Two_Show()");
