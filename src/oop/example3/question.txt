@@ -1,0 +1,7 @@
+3. ATM SystemConcepts: Encapsulation + Validation
+
+Problem:
+Create a class ATMAccount with private fields: accountNumber, pin, balance. Provide methods: deposit(), withdraw(),
+checkBalance().
+Ensure that withdraw() checks for sufficient balance and correct PIN.
+Challenge: Simulate a basic ATM menu where a user logs in and performs operations.

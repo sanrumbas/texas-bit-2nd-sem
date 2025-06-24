@@ -1,4 +1,4 @@
-package oop;
+package oop.example1;
 class Smartphone extends SmartDevice {
     private int cameraMP;
     private int batteryLife;

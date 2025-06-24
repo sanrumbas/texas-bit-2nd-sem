@@ -1,4 +1,4 @@
-package oop;
+package oop.example1;
 class Smartwatch extends SmartDevice {
     private String strapMaterial;
     private boolean isWaterResistant;

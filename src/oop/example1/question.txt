@@ -1,0 +1,12 @@
+1. Smart Device Hierarchy
+Concepts: Inheritance + Encapsulation + Constructor Chaining
+
+Problem:
+
+Create a class SmartDevice with private fields brand and price.
+Create a class Smartphone extending SmartDevice, adding cameraMP and batteryLife.
+Create another class Smartwatch extending SmartDevice, adding strapMaterial and isWaterResistant.
+Use constructors, proper encapsulation, and a method to display full device info.
+
+Challenge: Create an array of SmartDevice references and store both Smartphone and Smartwatch objects,
+           then use polymorphism to print device info.
