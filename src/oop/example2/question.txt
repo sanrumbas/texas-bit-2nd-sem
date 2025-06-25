@@ -1,9 +1,11 @@
 2. Game Character Inheritance
-Concepts: Inheritance + Method Overriding + Encapsulation
-Problem:
 
+Concepts: Inheritance + Method Overriding + Encapsulation
+
+Problem:
 Create a base class GameCharacter with name, health, and level.
 Create subclasses Warrior, Mage, and Archer, each with a different attack method.
 Use overriding to implement different attack() behavior in each subclass.
 
-Challenge: Write a method battle(GameCharacter enemy) which displays the type of attack used based on object type.
+Challenge: Write a method battle(GameCharacter enemy) which displays the type of attack
+           used based on object type.

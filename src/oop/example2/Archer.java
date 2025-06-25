@@ -2,7 +2,7 @@ package oop.example2;
 
 // Archer subclass
 class Archer extends GameCharacter {
-    public Archer(String name, int health, int level) {
+    Archer(String name, int health, int level) {
         super(name, health, level);
     }
 

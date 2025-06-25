@@ -2,7 +2,8 @@ package oop.example2;
 
 // Warrior subclass
 class Warrior extends GameCharacter {
-    public Warrior(String name, int health, int level) {
+
+    Warrior(String name, int health, int level) {
         super(name, health, level);
     }
 

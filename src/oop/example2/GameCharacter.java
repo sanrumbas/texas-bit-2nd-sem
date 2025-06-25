@@ -1,12 +1,11 @@
 package oop.example2;
-
 // Base class
 class GameCharacter {
     private String name;
     private int health;
     private int level;
 
-    public GameCharacter(String name, int health, int level) {
+    GameCharacter(String name, int health, int level) {
         this.name = name;
         this.health = health;
         this.level = level;
