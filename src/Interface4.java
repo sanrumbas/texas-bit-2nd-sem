@@ -32,7 +32,7 @@ public class Interface4 {
         Circle8 circle = new Circle8();
 
         System.out.println("Area of Rectangle: " + rect.areaOf(20.3f, 28.7f));
-        System.out.println("Area of Square: " + square.areaOf(10.0f, 10.0f));
+        System.out.println("Area of Square: " + square.areaOf(10.0f, 0));
         System.out.println("Area of Circle: " + circle.areaOf(5.2f, 0));
     }
 }
