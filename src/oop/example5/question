@@ -1,0 +1,11 @@
+5. Car Racing Game Classes
+
+Concepts: Inheritance + Polymorphism + Encapsulation
+
+Problem:
+Create a class Car with private fields model, maxSpeed, and a method drive().
+Create subclasses SportsCar and Truck, overriding drive() with different print messages.
+
+Add special features like boost() in SportsCar and loadCapacity in Truck.
+
+Challenge: Use an array of Car objects to simulate a race where each vehicle announces its type and action.
