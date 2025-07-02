@@ -6,7 +6,7 @@ class ATMAccount {
     private int pin;
     private double balance;
 
-    public ATMAccount(String accountNumber, int pin, double balance) {
+    ATMAccount(String accountNumber, int pin, double balance) {
         this.accountNumber = accountNumber;
         this.pin = pin;
         this.balance = balance;

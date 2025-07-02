@@ -1,7 +1,6 @@
 package oop.example3;
 
 import java.util.Scanner;
-
 // Main class to simulate the ATM menu
 public class ATMSystem {
     public static void main(String[] args) {
@@ -18,7 +17,6 @@ public class ATMSystem {
             System.out.println("Invalid PIN. Exiting...");
             return;
         }
-
         int choice;
         do {
             System.out.println("\n--- ATM Menu ---");
