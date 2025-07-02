@@ -1,3 +1,5 @@
+package inheritance;
+
 class SingleInh{
     public void display(){
         System.out.println("Texas College");

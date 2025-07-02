@@ -1,3 +1,5 @@
+package encapsulation;
+
 class StudentGet{
     private String name;
     public String getName(){

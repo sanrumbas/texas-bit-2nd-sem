@@ -1,3 +1,5 @@
+package encapsulation;
+
 class StudentEnc{
     private String name;
 

@@ -1,4 +1,4 @@
-package String;
+package string;
 
 public class ObjectToStringExample2 {
     public static void main(String[] args) {

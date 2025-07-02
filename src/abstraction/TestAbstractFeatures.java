@@ -1,11 +1,13 @@
+package abstraction;
+
 // Abstract class with various members
 abstract class Vehicle {
     // Data member
-    String type = "Vehicle";
+    String type = "abstraction.Vehicle";
 
     // Constructor
     Vehicle() {
-        System.out.println("Vehicle constructor called");
+        System.out.println("abstraction.Vehicle constructor called");
     }
 
     // Abstract method (must be overridden in child class)
@@ -23,7 +25,7 @@ abstract class Vehicle {
 
     // Instance method (non-abstract method)
     void stop() {
-        System.out.println("Vehicle stopped");
+        System.out.println("abstraction.Vehicle stopped");
     }
 }
 
@@ -31,7 +33,7 @@ abstract class Vehicle {
 class Car extends Vehicle {
     // Implementing the abstract method
     void start() {
-        System.out.println("Car started with key");
+        System.out.println("abstraction.Car started with key");
     }
 }
 // oop.Main class to run the program

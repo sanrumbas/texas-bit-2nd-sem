@@ -1,3 +1,5 @@
+package inheritance;
+
 class HiParent{
     void display(){
         System.out.println("Parent Class");
@@ -5,12 +7,12 @@ class HiParent{
 }
 class DeOne extends HiParent{
     void displayOne(){
-        System.out.println("Derived CLass One");
+        System.out.println("Derived CLass inheritance.One");
     }
 }
 class DeTwo extends HiParent{
     void displayTwo(){
-        System.out.println("Derived Class Two");
+        System.out.println("Derived Class inheritance.Two");
     }
 }
 public class HIexample {

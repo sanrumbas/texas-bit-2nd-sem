@@ -1,23 +1,25 @@
+package interfaceexampls;
+
 interface Results {
     final static float pi = 3.14f;  // Constant in interface
     float areaOf(float l, float b); // Abstract method
 }
 
-// Rectangle implements Results
+// Rectangle implements interfaceexampls.Results
 class Rectangle8 implements Results {
     public float areaOf(float l, float b) {
         return (l * b);
     }
 }
 
-// Square implements Results
+// Square implements interfaceexampls.Results
 class Square8 implements Results {
     public float areaOf(float l, float b) {
         return (l * l);
     }
 }
 
-// Circle implements Results
+// Circle implements interfaceexampls.Results
 class Circle8 implements Results {
     public float areaOf(float r, float b) {  // 'b' is unused
         return (pi * r * r);
