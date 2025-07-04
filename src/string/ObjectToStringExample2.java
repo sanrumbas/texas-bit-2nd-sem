@@ -3,12 +3,10 @@ package string;
 public class ObjectToStringExample2 {
     public static void main(String[] args) {
 
-        String s = "hello";
-        StringBuilder sb = new StringBuilder(s);
-        sb.reverse();
+        String s = " hello Texas Colege";
+        String s1 = " hello Texas Colege";
+        System.out.println(s.equals(s1));
+        System.out.println(s.equalsIgnoreCase(s1));
 
-        String rev = sb.toString();
-        System.out.println("String is: " + s);
-        System.out.println("Reverse String is: " + rev);
     }
 }

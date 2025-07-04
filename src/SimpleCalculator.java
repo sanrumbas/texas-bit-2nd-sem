@@ -9,11 +9,11 @@ public class SimpleCalculator {
 
         System.out.println("=== Simple Calculator ===");
 
-        System.out.print("Enter first number: ");
-        num1 = scanner.nextDouble();
-
         System.out.print("Enter operator (+, -, *, /): ");
         operator = scanner.next().charAt(0);
+
+        System.out.print("Enter first number: ");
+        num1 = scanner.nextDouble();
 
         System.out.print("Enter second number: ");
         num2 = scanner.nextDouble();

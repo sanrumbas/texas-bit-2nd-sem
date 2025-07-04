@@ -2,7 +2,8 @@
 
 Concepts: Multi-level Inheritance + Encapsulation
 Problem:
-Base class Person with name and age Class Student extends Person, adds rollNumber and course
+Base class Person with name and age
+Class Student extends Person, adds rollNumber and course
 Class GraduateStudent extends Student, adds thesisTitle and supervisorName
 Include constructors and display methods
 

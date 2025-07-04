@@ -10,8 +10,12 @@ class Person {
     }
 
     // Getters
-    public String getName() { return name; }
-    public int getAge() { return age; }
+    public String getName() {
+        return name;
+    }
+    public int getAge() {
+        return age;
+    }
 
     public void display() {
         System.out.println("Name: " + name);
