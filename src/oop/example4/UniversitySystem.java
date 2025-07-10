@@ -1,7 +1,6 @@
 package oop.example4;
 
 import java.util.*;
-
 public class UniversitySystem {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -33,16 +32,13 @@ public class UniversitySystem {
 
             System.out.print("Supervisor Name: ");
             String supervisor = sc.nextLine();
-
             students[i] = new GraduateStudent(name, age, rollNumber, course, thesisTitle, supervisor);
         }
-
         System.out.print("\nEnter supervisor name to search: ");
         String searchSupervisor = sc.nextLine();
 
         System.out.println("\n--- Students under Supervisor: " + searchSupervisor + " ---");
         boolean found = false;
-
         for (GraduateStudent gs : students) {
             if (gs.getSupervisorName().equalsIgnoreCase(searchSupervisor)) {
                 System.out.println("--------------------------");
@@ -50,7 +46,6 @@ public class UniversitySystem {
                 found = true;
             }
         }
-
         if (!found) {
             System.out.println("No graduate students found under supervisor: " + searchSupervisor);
         }

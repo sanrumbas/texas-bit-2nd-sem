@@ -3,13 +3,11 @@ package oop.example4;
 class Student extends Person {
     private String rollNumber;
     private String course;
-
     Student(String name, int age, String rollNumber, String course) {
         super(name, age);
         this.rollNumber = rollNumber;
         this.course = course;
     }
-
     // Getters
     public String getRollNumber() {
         return rollNumber;
