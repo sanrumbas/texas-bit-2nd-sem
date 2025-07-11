@@ -1,4 +1,5 @@
 package oop.example1;
+
 class SmartDevice {
     private String brand;
     private double price;
