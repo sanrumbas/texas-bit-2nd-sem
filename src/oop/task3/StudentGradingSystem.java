@@ -14,7 +14,6 @@ public class StudentGradingSystem {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         try {
             // Taking Name Input
             System.out.print("Enter Student Name: ");
@@ -22,12 +21,12 @@ public class StudentGradingSystem {
 
             // Formatting Name: Trim and Capitalize
             name = name.trim();
-            name = name.substring(0, 1).toUpperCase() + name.substring(1).toLowerCase();
+            name = name.substring(0, 1).toUpperCase() +
+                    name.substring(1).toLowerCase();
 
             // Taking Marks Input
             System.out.print("Enter Marks (0-100): ");
             String marksInput = scanner.nextLine();
-
             // Validate numeric format
             int marks;
             try {
