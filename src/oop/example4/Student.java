@@ -1,5 +1,4 @@
 package oop.example4;
-
 class Student extends Person {
     private String rollNumber;
     private String course;
@@ -15,7 +14,6 @@ class Student extends Person {
     public String getCourse() {
         return course;
     }
-
     @Override
     public void display() {
         super.display();

@@ -32,12 +32,14 @@ public class UniversitySystem {
 
             System.out.print("Supervisor Name: ");
             String supervisor = sc.nextLine();
-            students[i] = new GraduateStudent(name, age, rollNumber, course, thesisTitle, supervisor);
+            students[i] = new GraduateStudent(name, age, rollNumber,
+                    course, thesisTitle, supervisor);
         }
         System.out.print("\nEnter supervisor name to search: ");
         String searchSupervisor = sc.nextLine();
 
-        System.out.println("\n--- Students under Supervisor: " + searchSupervisor + " ---");
+        System.out.println("\n--- Students under Supervisor: "
+                + searchSupervisor + " ---");
         boolean found = false;
         for (GraduateStudent gs : students) {
             if (gs.getSupervisorName().equalsIgnoreCase(searchSupervisor)) {
@@ -47,7 +49,8 @@ public class UniversitySystem {
             }
         }
         if (!found) {
-            System.out.println("No graduate students found under supervisor: " + searchSupervisor);
+            System.out.println("No graduate students found under supervisor: "
+                    + searchSupervisor);
         }
 
         sc.close();

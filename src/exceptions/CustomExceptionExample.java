@@ -1,18 +1,17 @@
 package exceptions;
-
 // Custom exception class
 class InsufficientBalanceException extends Exception {
-    public InsufficientBalanceException(String message) {
+    InsufficientBalanceException(String message) {
         super(message);
     }
 }
-
 // Main class to use custom exception
 public class CustomExceptionExample {
     static void withdraw(double amount) throws InsufficientBalanceException {
         double balance = 500.00;
         if (amount > balance) {
-            throw new InsufficientBalanceException("Withdrawal failed: Insufficient balance.");
+            throw new InsufficientBalanceException("Withdrawal failed: " +
+                    "Insufficient balance.");
         }
         System.out.println("Withdrawal successful. Amount: " + amount);
     }

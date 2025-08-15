@@ -7,5 +7,5 @@ Class Student extends Person, adds rollNumber and course
 Class GraduateStudent extends Student, adds thesisTitle and supervisorName
 Include constructors and display methods
 
-Challenge: Accept data for multiple graduate students and display those working under a
-specific supervisor
+Challenge: Accept data for multiple graduate students and display those
+working under a specific supervisor

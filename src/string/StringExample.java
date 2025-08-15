@@ -16,9 +16,11 @@ public class StringExample {
         // indexOf
         System.out.println("Index of 'o': " + result.indexOf('o'));
         // equals
-        System.out.println("Equals 'Hello World': " + result.equals("Hello World"));
+        System.out.println("Equals 'Hello World': "
+                + result.equals("Hello World"));
         // equalsIgnoreCase
-        System.out.println("EqualsIgnoreCase: " + result.equalsIgnoreCase("hello world"));
+        System.out.println("EqualsIgnoreCase: "
+                + result.equalsIgnoreCase("hello world"));
 
         // toUpperCase and toLowerCase
         System.out.println("Uppercase: " + result.toUpperCase());
@@ -29,7 +31,8 @@ public class StringExample {
         System.out.println("Trimmed: '" + spaced.trim() + "'");
 
         // replace
-        System.out.println("Replace 'o' with '0': " + result.replace('o', '0'));
+        System.out.println("Replace 'o' with '0': "
+                + result.replace('o', '0'));
 
         // startsWith and endsWith
         System.out.println("Starts with 'He': " + result.startsWith("He"));

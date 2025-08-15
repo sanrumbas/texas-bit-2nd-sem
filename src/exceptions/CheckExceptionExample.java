@@ -8,7 +8,6 @@ public class CheckExceptionExample {
             FileReader fr = new FileReader("abc.txt");
         }catch(Exception e){
             System.out.println("FIle Not Found: " +e);
-            //e//e.getMessage()
         }
     }
 }

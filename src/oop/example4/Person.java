@@ -1,5 +1,4 @@
 package oop.example4;
-
 class Person {
     private String name;
     private int age;

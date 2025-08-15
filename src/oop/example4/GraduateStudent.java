@@ -10,11 +10,9 @@ class GraduateStudent extends Student {
         this.thesisTitle = thesisTitle;
         this.supervisorName = supervisorName;
     }
-
     public String getSupervisorName() {
         return supervisorName;
     }
-
     @Override
     public void display() {
         super.display();
